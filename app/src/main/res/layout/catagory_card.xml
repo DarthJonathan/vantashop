@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp">
+
+    <ImageView
+        android:id="@+id/productImage"
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:src="@drawable/gpu"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="6dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        android:src="@drawable/category_card"
+        android:padding="6dp"
+        android:alpha="0.5"/>
+
+    <ImageView
+        android:src="@drawable/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/productName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GTX TITAN"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="22dp"/>
+
+    <TextView
+        android:id="@+id/productPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="22dp"
+        android:layout_marginLeft="182dp"
+        android:text="Rp. 10 million,00"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+</FrameLayout>
